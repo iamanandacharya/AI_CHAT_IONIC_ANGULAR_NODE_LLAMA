@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chatbot</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [scrollEvents]="true">
+  <div class="chat-container">
+    <div *ngFor="let message of messages" [class]="message.sender === 'user' ? 'user-message' : 'bot-message'">
+      {{ message.text }}
+    </div>
+  </div>
+  
+  <ion-item>
+    <ion-input
+      placeholder="Type your message"
+      [(ngModel)]="userMessage"
+      (keydown.enter)="sendMessage()"
+    ></ion-input>
+    <ion-button (click)="sendMessage()">Send</ion-button>
+  </ion-item>
+</ion-content>
+
+

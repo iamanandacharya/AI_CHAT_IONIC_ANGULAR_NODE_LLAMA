@@ -36,6 +36,12 @@ log.txt
 /NodeJs/llama-chatbot
 npm-debug.log
 yarn-error.log
+Frontend/node_modules
+Frontend/.angular
+Frontend/.vscode
+Frontend/.eslintrc.json
+Frontend/.editorconfig
+Frontend/.browserslistrc
 
 # IDEs and editors
 .idea/

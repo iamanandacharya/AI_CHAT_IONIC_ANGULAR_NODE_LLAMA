@@ -1,0 +1,46 @@
+// .user-message {
+//     text-align: right;
+//     background-color: #d1f7c4;
+//     padding: 8px;
+//     margin: 5px;
+//     border-radius: 10px;
+// }
+
+// .bot-message {
+//     text-align: left;
+//     background-color: #f1f1f1;
+//     padding: 8px;
+//     margin: 5px;
+//     border-radius: 10px;
+// }
+
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column-reverse; /* This will reverse the message order */
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .user-message {
+    background-color: #d1f7c4;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    align-self: flex-end; /* Align user messages to the right */
+  }
+  
+  .bot-message {
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    align-self: flex-start; /* Align bot messages to the left */
+  }
+  
+  ion-content {
+    padding-bottom: 50px; /* Optional: adds space for the input bar */
+  }
+  
