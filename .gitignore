@@ -31,9 +31,9 @@ log.txt
 
 # Node
 /node_modules
-/NodeJs/llama-chatbot/node_modules
-/NodeJs/node_modules/
-/NodeJs/llama-chatbot
+/backend-NodeJs/llama-chatbot/node_modules
+/backend-NodeJs/node_modules/
+/backend-NodeJs/llama-chatbot
 npm-debug.log
 yarn-error.log
 Frontend-Ionic/node_modules
